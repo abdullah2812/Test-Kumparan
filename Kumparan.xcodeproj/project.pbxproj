@@ -16,6 +16,7 @@
 		DC35802B289517CF00222A51 /* KumparanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35802A289517CF00222A51 /* KumparanTests.swift */; };
 		DC358036289517CF00222A51 /* KumparanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC358035289517CF00222A51 /* KumparanUITests.swift */; };
 		DC3580502895193000222A51 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = DC35804F2895193000222A51 /* SwiftyJSON */; };
+		DC35805628951C8A00222A51 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = DC35805528951C8A00222A51 /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC35805628951C8A00222A51 /* SDWebImageSwiftUI in Frameworks */,
 				DC3580502895193000222A51 /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +158,7 @@
 			name = Kumparan;
 			packageProductDependencies = (
 				DC35804F2895193000222A51 /* SwiftyJSON */,
+				DC35805528951C8A00222A51 /* SDWebImageSwiftUI */,
 			);
 			productName = Kumparan;
 			productReference = DC358010289517C100222A51 /* Kumparan.app */;
@@ -230,6 +233,7 @@
 			mainGroup = DC358007289517C100222A51;
 			packageReferences = (
 				DC35804E2895193000222A51 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				DC35805428951C8A00222A51 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = DC358011289517C100222A51 /* Products */;
 			projectDirPath = "";
@@ -615,6 +619,14 @@
 				minimumVersion = 5.0.1;
 			};
 		};
+		DC35805428951C8A00222A51 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -622,6 +634,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DC35804E2895193000222A51 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
 			productName = SwiftyJSON;
+		};
+		DC35805528951C8A00222A51 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC35805428951C8A00222A51 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
