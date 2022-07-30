@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC358014289517C100222A51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC358013289517C100222A51 /* AppDelegate.swift */; };
+		DC358016289517C100222A51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC358015289517C100222A51 /* SceneDelegate.swift */; };
+		DC358018289517C100222A51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC358017289517C100222A51 /* ContentView.swift */; };
+		DC35801A289517CE00222A51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC358019289517CE00222A51 /* Assets.xcassets */; };
+		DC35801D289517CE00222A51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC35801C289517CE00222A51 /* Preview Assets.xcassets */; };
+		DC358020289517CE00222A51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC35801E289517CE00222A51 /* LaunchScreen.storyboard */; };
+		DC35802B289517CF00222A51 /* KumparanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35802A289517CF00222A51 /* KumparanTests.swift */; };
+		DC358036289517CF00222A51 /* KumparanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC358035289517CF00222A51 /* KumparanUITests.swift */; };
+		DC3580502895193000222A51 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = DC35804F2895193000222A51 /* SwiftyJSON */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC358027289517CF00222A51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC358008289517C100222A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC35800F289517C100222A51;
+			remoteInfo = Kumparan;
+		};
+		DC358032289517CF00222A51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC358008289517C100222A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC35800F289517C100222A51;
+			remoteInfo = Kumparan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC358010289517C100222A51 /* Kumparan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kumparan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC358013289517C100222A51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC358015289517C100222A51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DC358017289517C100222A51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC358019289517CE00222A51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC35801C289517CE00222A51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC35801F289517CE00222A51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC358021289517CE00222A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC358026289517CF00222A51 /* KumparanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KumparanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC35802A289517CF00222A51 /* KumparanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KumparanTests.swift; sourceTree = "<group>"; };
+		DC35802C289517CF00222A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC358031289517CF00222A51 /* KumparanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KumparanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC358035289517CF00222A51 /* KumparanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KumparanUITests.swift; sourceTree = "<group>"; };
+		DC358037289517CF00222A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC35800D289517C100222A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3580502895193000222A51 /* SwiftyJSON in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC358023289517CF00222A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC35802E289517CF00222A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC358007289517C100222A51 = {
+			isa = PBXGroup;
+			children = (
+				DC358012289517C100222A51 /* Kumparan */,
+				DC358029289517CF00222A51 /* KumparanTests */,
+				DC358034289517CF00222A51 /* KumparanUITests */,
+				DC358011289517C100222A51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC358011289517C100222A51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC358010289517C100222A51 /* Kumparan.app */,
+				DC358026289517CF00222A51 /* KumparanTests.xctest */,
+				DC358031289517CF00222A51 /* KumparanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC358012289517C100222A51 /* Kumparan */ = {
+			isa = PBXGroup;
+			children = (
+				DC358013289517C100222A51 /* AppDelegate.swift */,
+				DC358015289517C100222A51 /* SceneDelegate.swift */,
+				DC358017289517C100222A51 /* ContentView.swift */,
+				DC358019289517CE00222A51 /* Assets.xcassets */,
+				DC35801E289517CE00222A51 /* LaunchScreen.storyboard */,
+				DC358021289517CE00222A51 /* Info.plist */,
+				DC35801B289517CE00222A51 /* Preview Content */,
+			);
+			path = Kumparan;
+			sourceTree = "<group>";
+		};
+		DC35801B289517CE00222A51 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC35801C289517CE00222A51 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC358029289517CF00222A51 /* KumparanTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC35802A289517CF00222A51 /* KumparanTests.swift */,
+				DC35802C289517CF00222A51 /* Info.plist */,
+			);
+			path = KumparanTests;
+			sourceTree = "<group>";
+		};
+		DC358034289517CF00222A51 /* KumparanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC358035289517CF00222A51 /* KumparanUITests.swift */,
+				DC358037289517CF00222A51 /* Info.plist */,
+			);
+			path = KumparanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC35800F289517C100222A51 /* Kumparan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC35803A289517CF00222A51 /* Build configuration list for PBXNativeTarget "Kumparan" */;
+			buildPhases = (
+				DC35800C289517C100222A51 /* Sources */,
+				DC35800D289517C100222A51 /* Frameworks */,
+				DC35800E289517C100222A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kumparan;
+			packageProductDependencies = (
+				DC35804F2895193000222A51 /* SwiftyJSON */,
+			);
+			productName = Kumparan;
+			productReference = DC358010289517C100222A51 /* Kumparan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC358025289517CF00222A51 /* KumparanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC35803D289517CF00222A51 /* Build configuration list for PBXNativeTarget "KumparanTests" */;
+			buildPhases = (
+				DC358022289517CF00222A51 /* Sources */,
+				DC358023289517CF00222A51 /* Frameworks */,
+				DC358024289517CF00222A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC358028289517CF00222A51 /* PBXTargetDependency */,
+			);
+			name = KumparanTests;
+			productName = KumparanTests;
+			productReference = DC358026289517CF00222A51 /* KumparanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC358030289517CF00222A51 /* KumparanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC358040289517CF00222A51 /* Build configuration list for PBXNativeTarget "KumparanUITests" */;
+			buildPhases = (
+				DC35802D289517CF00222A51 /* Sources */,
+				DC35802E289517CF00222A51 /* Frameworks */,
+				DC35802F289517CF00222A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC358033289517CF00222A51 /* PBXTargetDependency */,
+			);
+			name = KumparanUITests;
+			productName = KumparanUITests;
+			productReference = DC358031289517CF00222A51 /* KumparanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC358008289517C100222A51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DC35800F289517C100222A51 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					DC358025289517CF00222A51 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DC35800F289517C100222A51;
+					};
+					DC358030289517CF00222A51 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DC35800F289517C100222A51;
+					};
+				};
+			};
+			buildConfigurationList = DC35800B289517C100222A51 /* Build configuration list for PBXProject "Kumparan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC358007289517C100222A51;
+			packageReferences = (
+				DC35804E2895193000222A51 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
+			productRefGroup = DC358011289517C100222A51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC35800F289517C100222A51 /* Kumparan */,
+				DC358025289517CF00222A51 /* KumparanTests */,
+				DC358030289517CF00222A51 /* KumparanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC35800E289517C100222A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC358020289517CE00222A51 /* LaunchScreen.storyboard in Resources */,
+				DC35801D289517CE00222A51 /* Preview Assets.xcassets in Resources */,
+				DC35801A289517CE00222A51 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC358024289517CF00222A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC35802F289517CF00222A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC35800C289517C100222A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC358014289517C100222A51 /* AppDelegate.swift in Sources */,
+				DC358016289517C100222A51 /* SceneDelegate.swift in Sources */,
+				DC358018289517C100222A51 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC358022289517CF00222A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC35802B289517CF00222A51 /* KumparanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC35802D289517CF00222A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC358036289517CF00222A51 /* KumparanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC358028289517CF00222A51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC35800F289517C100222A51 /* Kumparan */;
+			targetProxy = DC358027289517CF00222A51 /* PBXContainerItemProxy */;
+		};
+		DC358033289517CF00222A51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC35800F289517C100222A51 /* Kumparan */;
+			targetProxy = DC358032289517CF00222A51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC35801E289517CE00222A51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC35801F289517CE00222A51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC358038289517CF00222A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC358039289517CF00222A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC35803B289517CF00222A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Kumparan/Preview Content\"";
+				DEVELOPMENT_TEAM = 63U9NC25XJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Kumparan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdullah.Kumparan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC35803C289517CF00222A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Kumparan/Preview Content\"";
+				DEVELOPMENT_TEAM = 63U9NC25XJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Kumparan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdullah.Kumparan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC35803E289517CF00222A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63U9NC25XJ;
+				INFOPLIST_FILE = KumparanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdullah.KumparanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kumparan.app/Kumparan";
+			};
+			name = Debug;
+		};
+		DC35803F289517CF00222A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63U9NC25XJ;
+				INFOPLIST_FILE = KumparanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdullah.KumparanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kumparan.app/Kumparan";
+			};
+			name = Release;
+		};
+		DC358041289517CF00222A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63U9NC25XJ;
+				INFOPLIST_FILE = KumparanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdullah.KumparanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kumparan;
+			};
+			name = Debug;
+		};
+		DC358042289517CF00222A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63U9NC25XJ;
+				INFOPLIST_FILE = KumparanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdullah.KumparanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kumparan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC35800B289517C100222A51 /* Build configuration list for PBXProject "Kumparan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC358038289517CF00222A51 /* Debug */,
+				DC358039289517CF00222A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC35803A289517CF00222A51 /* Build configuration list for PBXNativeTarget "Kumparan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC35803B289517CF00222A51 /* Debug */,
+				DC35803C289517CF00222A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC35803D289517CF00222A51 /* Build configuration list for PBXNativeTarget "KumparanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC35803E289517CF00222A51 /* Debug */,
+				DC35803F289517CF00222A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC358040289517CF00222A51 /* Build configuration list for PBXNativeTarget "KumparanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC358041289517CF00222A51 /* Debug */,
+				DC358042289517CF00222A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC35804E2895193000222A51 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC35804F2895193000222A51 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC35804E2895193000222A51 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DC358008289517C100222A51 /* Project object */;
+}
