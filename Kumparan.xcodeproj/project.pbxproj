@@ -16,7 +16,10 @@
 		DC35802B289517CF00222A51 /* KumparanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35802A289517CF00222A51 /* KumparanTests.swift */; };
 		DC358036289517CF00222A51 /* KumparanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC358035289517CF00222A51 /* KumparanUITests.swift */; };
 		DC3580502895193000222A51 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = DC35804F2895193000222A51 /* SwiftyJSON */; };
-		DC35805628951C8A00222A51 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = DC35805528951C8A00222A51 /* SDWebImageSwiftUI */; };
+		DC35805B28951E8500222A51 /* ListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35805A28951E8500222A51 /* ListData.swift */; };
+		DC35806028951E9400222A51 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35805F28951E9400222A51 /* Profile.swift */; };
+		DC35806528951ED500222A51 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35806428951ED500222A51 /* File.swift */; };
+		DC35806A28951FB800222A51 /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35806928951FB800222A51 /* DataViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		DC358031289517CF00222A51 /* KumparanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KumparanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC358035289517CF00222A51 /* KumparanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KumparanUITests.swift; sourceTree = "<group>"; };
 		DC358037289517CF00222A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC35805A28951E8500222A51 /* ListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListData.swift; sourceTree = "<group>"; };
+		DC35805F28951E9400222A51 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		DC35806428951ED500222A51 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		DC35806928951FB800222A51 /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +65,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC35805628951C8A00222A51 /* SDWebImageSwiftUI in Frameworks */,
 				DC3580502895193000222A51 /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,6 +116,10 @@
 				DC35801E289517CE00222A51 /* LaunchScreen.storyboard */,
 				DC358021289517CE00222A51 /* Info.plist */,
 				DC35801B289517CE00222A51 /* Preview Content */,
+				DC35805A28951E8500222A51 /* ListData.swift */,
+				DC35805F28951E9400222A51 /* Profile.swift */,
+				DC35806428951ED500222A51 /* File.swift */,
+				DC35806928951FB800222A51 /* DataViewModel.swift */,
 			);
 			path = Kumparan;
 			sourceTree = "<group>";
@@ -158,7 +168,6 @@
 			name = Kumparan;
 			packageProductDependencies = (
 				DC35804F2895193000222A51 /* SwiftyJSON */,
-				DC35805528951C8A00222A51 /* SDWebImageSwiftUI */,
 			);
 			productName = Kumparan;
 			productReference = DC358010289517C100222A51 /* Kumparan.app */;
@@ -233,7 +242,6 @@
 			mainGroup = DC358007289517C100222A51;
 			packageReferences = (
 				DC35804E2895193000222A51 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
-				DC35805428951C8A00222A51 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = DC358011289517C100222A51 /* Products */;
 			projectDirPath = "";
@@ -279,8 +287,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC358014289517C100222A51 /* AppDelegate.swift in Sources */,
+				DC35806528951ED500222A51 /* File.swift in Sources */,
+				DC35806028951E9400222A51 /* Profile.swift in Sources */,
 				DC358016289517C100222A51 /* SceneDelegate.swift in Sources */,
 				DC358018289517C100222A51 /* ContentView.swift in Sources */,
+				DC35806A28951FB800222A51 /* DataViewModel.swift in Sources */,
+				DC35805B28951E8500222A51 /* ListData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,14 +631,6 @@
 				minimumVersion = 5.0.1;
 			};
 		};
-		DC35805428951C8A00222A51 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.2;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -634,11 +638,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DC35804E2895193000222A51 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
 			productName = SwiftyJSON;
-		};
-		DC35805528951C8A00222A51 /* SDWebImageSwiftUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DC35805428951C8A00222A51 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
-			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
